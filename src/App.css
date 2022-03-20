@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #c31950fa !important; 
+}
+
+.container-fluid{
+  padding: 20px 35px 40px 35px !important;
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px #222;
+  background-color: #fefefe;
+  max-width: 480px;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container-fluid {
+    max-width: 360px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .container-fluid {
+    max-width: 320px;
+  }
+}

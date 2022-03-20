@@ -1,0 +1,12 @@
+   .container-fluid h2 {
+     color:#c9c421;
+   }
+
+  .container-fluid form .form-label{
+    font-weight: bold;
+    font-size: 15px;
+    color:#463a3a;
+  }
+  .container-fluid form {
+    font-size: 14px !important;
+  }
